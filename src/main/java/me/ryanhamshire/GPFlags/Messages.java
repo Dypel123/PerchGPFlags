@@ -311,9 +311,5 @@ public enum Messages {
     EnabledRestoreGrazedGrass,
     DisabledRestoreGrazedGrass,
 
-    EnableNoSetBedSpawn,
-    DisableNoSetBedSpawn,
-    SetBedSpawnDisabled,
-
     Prefix
 }
