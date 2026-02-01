@@ -426,7 +426,9 @@ public class FlagsDataStore {
         this.addDefault(defaults, Messages.EnabledNoPlaceCertainBlock, "This claim now protects certain blocks from being placed.", null);
         this.addDefault(defaults, Messages.DisabledNoPlaceCertainBlock, "This claim no longer protects certain blocks from being placed.", null);
         this.addDefault(defaults, Messages.NoPlaceCertainBlockMessage, "You cannot place {block} in this claim!", null);
-
+        this.addDefault(defaults, Messages.EnableRescueOnLogin, "Players stuck in blocks will be teleported to world spawn on login.", null);
+        this.addDefault(defaults, Messages.DisableRescueOnLogin, "Players will no longer be rescued from blocks on login.", null);
+        this.addDefault(defaults, Messages.RescuedFromBlock, "You were stuck in a block and have been teleported to spawn.", null);
 
         //load the config file
         File file = new File(messagesFilePath);

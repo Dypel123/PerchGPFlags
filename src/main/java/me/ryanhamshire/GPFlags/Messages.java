@@ -311,5 +311,9 @@ public enum Messages {
     EnabledRestoreGrazedGrass,
     DisabledRestoreGrazedGrass,
 
+    EnableRescueOnLogin,
+    DisableRescueOnLogin,
+    RescuedFromBlock,
+
     Prefix
 }
