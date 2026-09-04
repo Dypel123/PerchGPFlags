@@ -27,7 +27,6 @@ public class FlagDef_NoSetBedSpawn extends FlagDefinition {
 
         Claim claim = GriefPrevention.instance.dataStore.getClaimAt(location, false, null);
 
-        // Claim owners always bypass NoSetBedSpawn.
         if (claim != null && player.getUniqueId().equals(claim.getOwnerID())) {
             return;
         }
